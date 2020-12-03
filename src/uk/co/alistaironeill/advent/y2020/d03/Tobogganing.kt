@@ -19,9 +19,7 @@ object Tobogganing {
         fun move(slope: Slope) = Position(x + slope.dX, y + slope.dY)
     }
 
-    data class Slope(val dX: Int, val dY: Int) {
-
-    }
+    data class Slope(val dX: Int, val dY: Int)
 
     data class TreeMap(val data: List<List<Boolean>>) {
         companion object {
