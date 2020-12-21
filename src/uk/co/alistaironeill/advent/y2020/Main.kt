@@ -1,11 +1,11 @@
 package uk.co.alistaironeill.advent.y2020
 
-import uk.co.alistaironeill.advent.y2020.d20.JurassicJigsaw
+import uk.co.alistaironeill.advent.y2020.d21.AllergenAssessment
 import java.io.File
 
 fun main() {
-    val data = File("data/day20.txt").readText()
-    val jigsaw = JurassicJigsaw(data)
-    val result = jigsaw.task2()
+    val data = File("data/day21.txt").readText()
+    val aa = AllergenAssessment(data)
+    val result = aa.task2()
     println(result)
 }
