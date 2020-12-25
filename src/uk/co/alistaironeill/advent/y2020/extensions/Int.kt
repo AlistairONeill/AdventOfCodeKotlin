@@ -17,3 +17,5 @@ val Int.sqrt get(): Int {
 
     throw Exception("Only supporting perfect squares")
 }
+
+val Int.even get() = (this % 2 == 0)
